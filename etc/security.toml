@@ -1,0 +1,11 @@
+[security]
+# Security settings
+password_policy = "strong"
+encryption = true
+auto_update_security = true
+
+[auth]
+# Authentication settings
+password_hashing_algorithm = "bcrypt"
+max_login_attempts = 5
+lockout_duration = "15m"

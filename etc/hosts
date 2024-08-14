@@ -1,0 +1,4 @@
+# /etc/hosts file for hostname resolution
+127.0.0.1       localhost
+::1             localhost
+192.168.1.100   secure-kernel-concept

@@ -1,0 +1,9 @@
+[service]
+name = "network-manager"
+description = "Manages network connections"
+enabled = true
+start_on_boot = true
+restart_on_failure = true
+restart_on_abnormal = true
+restart_delay = 5
+restart_attempts = 5

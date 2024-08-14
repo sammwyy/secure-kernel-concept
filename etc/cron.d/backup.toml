@@ -1,0 +1,12 @@
+[[jobs]]
+name = "daily-backup"
+schedule = "0 3 * * *"                                # Daily at 3 AM
+command = "/usr/local/bin/backup.sh"
+description = "Performs daily backup of system files"
+
+[[jobs]]
+name = "system-cleanup"
+schedule = "0 2 * * 0"                                    # Every Sunday at 2 AM
+command = "/users/root/cleanup.sh"
+description = "Cleans up temporary files and system logs"
+user = "root"

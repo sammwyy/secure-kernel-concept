@@ -1,0 +1,6 @@
+[system]
+hostname = "custom-secure-os"
+timezone = "UTC"
+locale = "en_US.UTF-8"
+keyboard = "us"
+keymap = "us"

@@ -1,0 +1,15 @@
+[[filesystems]]
+device = "/dev/sda1"
+mount_point = "/"
+fstype = "ext4"
+options = "defaults"
+dump = 0
+pass = 1
+
+[[filesystems]]
+device = "/dev/sda2"
+mount_point = "/home"
+fstype = "ext4"
+options = "defaults"
+dump = 0
+pass = 2

@@ -1,0 +1,9 @@
+[[groups]]
+name = "sudo"
+gid = 1000
+members = ["root"]
+
+[[groups]]
+name = "users"
+gid = 1001
+members = ["guest"]

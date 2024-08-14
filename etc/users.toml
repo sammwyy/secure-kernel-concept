@@ -1,0 +1,17 @@
+[[users]]
+username = "root"
+password = "<hashed-password>"
+full_name = "Root"
+shell = "/bin/bash"
+home_directory = "/home/root"
+sudo = true
+uid = 0
+guid = 0
+
+[[users]]
+username = "guest"
+full_name = "Guest User"
+shell = "/bin/sh"
+home_directory = "/home/guest"
+uid = 1001
+gid = 1001
